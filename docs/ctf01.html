@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Verschlüsselte Seite</title>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/crypto-js.js"></script>
+</head>
+<body>
+    <div id="loginDiv">
+        <h1>Verschlüsselte Seite</h1>
+        <input type="password" id="password" placeholder="Passwort eingeben">
+        <button onclick="decryptContent()">Entschlüsseln</button>
+    </div>
+
+    <div id="content" style="display:none;">
+        <!--
+            key = b'Sixteen-byte-key' # Schlüssel muss 16, 24 oder 32 Bytes lang sein
+            cipher = AES.new(key, AES.MODE_CBC)
+            ct_bytes = cipher.encrypt(pad(body_inner_html.encode('utf-8'), AES.block_size))
+            iv = b64encode(cipher.iv).decode('utf-8')
+            ct = b64encode(ct_bytes).decode('utf-8')
+            base64_string = iv + ct
+        -->
+        <div id="encryptedContent">{{ encrypted_body }}</div>
+    </div>
+
+    <script>
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/eb0crul";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function decryptContent() {
+            var password = document.getElementById('password').value;
+            var encryptedContent = document.getElementById('encryptedContent').innerText;
+            try {
+                var key = CryptoJS.enc.Utf8.parse(password);
+                var iv = CryptoJS.enc.Base64.parse(encryptedContent.slice(0, 24));
+                var encrypted = encryptedContent.slice(24);
+                var decrypted = CryptoJS.AES.decrypt(encrypted, key, { iv: iv });
+                var originalText = decrypted.toString(CryptoJS.enc.Utf8);
+                if (originalText) {
+                    document.getElementById('content').innerHTML = originalText;
+                    document.getElementById('content').style.display = 'block';
+                    document.getElementById('loginDiv').style.display = 'none';
+                    setCookie('password', password, 30);
+                } else {
+                    alert('Falsches Passwort!');
+                }
+            } catch (e) {
+                alert('Fehler bei der Entschlüsselung!');
+            }
+        }
+
+        window.onload = function() {
+            var password = getCookie('password');
+            if (password) {
+                document.getElementById('password').value = password;
+                decryptContent();
+            }
+        }
+    </script>
+</body>
+</html>
