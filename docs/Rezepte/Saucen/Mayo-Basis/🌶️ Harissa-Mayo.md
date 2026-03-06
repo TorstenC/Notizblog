@@ -1,4 +1,4 @@
-# 🌶 Harissa-Mayo (extrem gut)
+# 🌶️ Harissa-Mayo (extrem gut)
 
 **Rezept**
 
