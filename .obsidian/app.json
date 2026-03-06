@@ -1,1 +1,12 @@
-{}
+{
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "useTab": false,
+  "tabSize": 2,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Anhänge",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative"
+}

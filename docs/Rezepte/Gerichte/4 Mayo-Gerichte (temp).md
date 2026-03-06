@@ -1,5 +1,3 @@
-Perfekt 😄 Dann habt ihr einen großen Vorteil: **Saucen gemeinsam vorbereiten**. Das ist tatsächlich eine der einfachsten Strategien, um eine Ernährungsumstellung langfristig durchzuhalten. Und Mayo eignet sich dafür hervorragend, weil sie geschmacklich stark ist und sehr wenig Kohlenhydrate enthält.
-
 Hier sind die **4 Mayo-Gerichte**, die viele Low-Carb- und Keto-Leute regelmäßig essen. Der Trick bei ihnen ist: **Die Mayo wirkt nicht wie eine „fette Sauce“, sondern wie ein Bestandteil des Gerichts.** Dadurch gehen schnell 50–100 g Mayo weg, ohne dass es sich so anfühlt.
 
 ---
