@@ -1,4 +1,4 @@
-# 🍳 1. Warmes Eier-Gemüse-Bowl mit Mayo
+# 🍳 Warmes Eier-Gemüse-Bowl mit Mayo
 
 Sehr sättigend und extrem einfach.
 
@@ -19,5 +19,3 @@ Sehr sättigend und extrem einfach.
 👉 Warmes Essen + kalte Mayo ergibt eine **sehr cremige Sauce**, ohne dass man sie kochen muss.
 
 Mayo-Verbrauch: **60–80 g**
-
----

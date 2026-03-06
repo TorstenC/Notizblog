@@ -2,7 +2,7 @@ Hier sind die **4 Mayo-Gerichte**, die viele Low-Carb- und Keto-Leute regelmäß
 
 ---
 
-[🍳 Warmes Eier-Gemüse-Bowl mit Mayo](🍳%20Warmes%20Eier-Gemüse-Bowl%20mit%20Mayo)
+1.  ![🍳 Warmes Eier-Gemüse-Bowl mit Mayo](🍳%20Warmes%20Eier-Gemüse-Bowl%20mit%20Mayo)
 
 # 🥗 2. Deftiger Hähnchen-Salat
 

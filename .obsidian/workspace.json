@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "899735e595a6bcbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Rezepte/Gerichte/4 Mayo-Gerichte (temp).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4 Mayo-Gerichte (temp)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,13 +206,14 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "bases:Neue Base erstellen": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "publish:Änderungen veröffentlichen": false
     }
   },
-  "active": "157771d35a719de4",
+  "active": "899735e595a6bcbe",
   "lastOpenFiles": [
-    "docs/Rezepte/Gerichte/4 Mayo-Gerichte (temp).md",
     "docs/Rezepte/Gerichte/🍳 Warmes Eier-Gemüse-Bowl mit Mayo.md",
+    "docs/Rezepte/Gerichte/4 Mayo-Gerichte (temp).md",
     "docs/Rezepte/index.md",
     "docs/Rezepte/Saucen/Mayo-Basis/🌶️ Harissa-Mayo.md",
     "docs/Rezepte/Saucen/Mayo-Basis/🇯🇵 Japanische Umami-Sauce.md",

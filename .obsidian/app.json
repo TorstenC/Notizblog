@@ -8,5 +8,6 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "showInlineTitle": false
 }
