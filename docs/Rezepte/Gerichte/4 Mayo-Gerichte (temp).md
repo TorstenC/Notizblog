@@ -36,11 +36,14 @@ Extrem schnell gemacht.
 
 * 1 Avocado
 * 1 Dose Thunfisch
-* 2–3 EL Mayo
-* Zitronensaft
+* Zitronensaft (optopnal Balsamico Essig)
 * Salz / Pfeffer
+* 2–3 EL Mayo
+* Worcestershire-Sauce
+* Chili-Öl
 
-Mit Gabel zerdrücken.
+Mit Gabel zerdrücken und vor der Mayo abschmecken.  
+Nach Zugabe der Mayo Chili-Öl und Worcestershire-Sauce abschmecken.
 
 Sehr gut zu:
 
